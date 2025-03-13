@@ -29,7 +29,7 @@ const Hero = () => {
           <p 
             className={cn(
               "text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto transition-all duration-1000 delay-300",
-              hasIntersecting ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              hasIntersected ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             )}
           >
             A minimalist approach to design that focuses on simplicity, usability, and thoughtful details.
@@ -38,7 +38,7 @@ const Hero = () => {
           <div 
             className={cn(
               "flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-500",
-              hasIntersecting ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              hasIntersected ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             )}
           >
             <a 

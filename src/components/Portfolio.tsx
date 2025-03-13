@@ -46,7 +46,6 @@ const Portfolio = () => {
     <section id="portfolio" className="bg-secondary/50 py-24">
       <div className="container-section">
         <div 
-          ref={headerRef}
           className={cn(
             "max-w-3xl mx-auto text-center mb-16 transition-all duration-700",
             headerObserver.hasIntersected ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
